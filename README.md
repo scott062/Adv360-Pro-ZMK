@@ -1,10 +1,14 @@
 # ADV360-PRO-ZMK
 
+Using ZMK fork provided by Kinesis - possible conflicting versions may necessitate using local builds or further customization that will diverge from stable ZMK / stable Kinesis ZMK.
+
+This specific keymap is copied from Primeagen's https://github.com/ThePrimeagen/Adv360-Pro-ZMK/blob/V1.69_prime/config/adv360.keymap, but modified for Kinesis ZMK v2.0 while Primeagen's original is based on outdated/custom version.
+
 ## Modifying the keymap
 
 ~~There is a GUI for editing the keymap. It is available at https://kinesiscorporation.github.io/Adv360-Pro-GUI~~
 
-Can't use GUI for special modifiers this config uses
+Can't use GUI for special modifiers this config uses. Modify the files directly (ex. adv360.keymap)
 
 ## Building the Firmware with GitHub Actions
 
