@@ -10,9 +10,9 @@ This specific keymap is copied from Primeagen's https://github.com/ThePrimeagen/
 
 Can't use GUI for special modifiers this config uses. Modify the files directly (ex. adv360.keymap)
 
-## Building the Firmware with GitHub Actions
+## Building the Firmware with GitHub Actions (Preferred method until something stops working)
 
-### Setup (My preferred method to use Actions until something stops working)
+### Setup 
 
 1. Fork this repo.
 2. Enable GitHub Actions on your fork.
@@ -22,7 +22,7 @@ Can't use GUI for special modifiers this config uses. Modify the files directly 
 1. Push a commit to trigger the build.
 2. Download the artifact.
 
-## Building the Firmware in a local container
+## Building the Firmware in a local container (Alternative)
 
 ### Setup
 
