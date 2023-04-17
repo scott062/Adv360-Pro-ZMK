@@ -2,11 +2,13 @@
 
 ## Modifying the keymap
 
-There is a GUI for editing the keymap. It is available at https://kinesiscorporation.github.io/Adv360-Pro-GUI
+~~There is a GUI for editing the keymap. It is available at https://kinesiscorporation.github.io/Adv360-Pro-GUI~~
+
+Can't use GUI for special modifiers this config uses
 
 ## Building the Firmware with GitHub Actions
 
-### Setup
+### Setup (My preferred method to use Actions until something stops working)
 
 1. Fork this repo.
 2. Enable GitHub Actions on your fork.
@@ -25,13 +27,8 @@ There is a GUI for editing the keymap. It is available at https://kinesiscorpora
 * Either Podman or Docker is required, Podman is preferred if both are present.
 * Make is also required
 
-#### Windows specific
 
-* If compiling on Windows use WSL2 and Docker [Docker Setup Guide](https://docs.docker.com/desktop/windows/wsl/).
-* Install make using `sudo apt-get install make`.
-* The repository can be cloned directly into the WSL2 instance or accessed through the C: mount point WSL provides by default (`/mnt/c/path-to-repo`).
-
-### Build firmware
+### Build firmware (Non-Windows)
 
 1. Execute `make`.
 2. Check the `firmware` directory for the latest firmware build.
