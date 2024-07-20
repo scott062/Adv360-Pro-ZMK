@@ -28,7 +28,7 @@ ppipe: pipe_pipe {
     compatible = "zmk,behavior-mod-morph";
     label = "pipe_pipe";
     #binding-cells = <0>;
-    bindings = <&kp PIPE>, <&kp PIPE>;
+    bindings = <&kp PIPE>, <&kp TILDE>;
     mods = <(MOD_LGUI|MOD_LSFT|MOD_RGUI|MOD_RSFT)>;
 };
 pkp_n1: plus_kp_n1 {
